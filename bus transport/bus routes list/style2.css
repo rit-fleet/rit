@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  #search-bar::placeholder {
+    color: #242424; /* Change this to your desired color */
+  }
+  #search-container {
+    position: relative;
+  }
+
+  #search-bar {
+        width: 30%;
+        height: 30px;
+        font-size: 18px;
+        padding: 15px;
+        margin: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+  }
+
+  #search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 450px;
+    width: 30px;
+    height: 30px;
+    fill: #000000;
+  }
+
+  header {
+    background: #1a5d95; 
+    color: #fff;
+    height: 118px;
+    text-align: center;
+    padding: 0.5em 0; 
+    opacity: 1.0; 
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section {
+    background-color: rgb(158, 184, 204);
+    padding: 20px;
+    margin: 20px;
+    width: calc(20% - 20px);
+    opacity: 0.9;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  h2 span {
+    background-color:transparent; /* change this to your desired background color */
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* set z-index to -1 to send video to the back */
+  }
+  section h2 {
+    text-align: center;
+  }
